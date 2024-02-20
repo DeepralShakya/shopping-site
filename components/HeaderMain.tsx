@@ -10,7 +10,7 @@ const HeaderMain = () => {
     <div className="border-b border-orange-300 py-6">
       <div className="container sm:flex justify-between items-center">
         <div className="font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish">
-          Shop
+            Shop
         </div>
 
         <div className="w-full sm:w-[300px] md:w-[70%] relative">
@@ -29,14 +29,14 @@ const HeaderMain = () => {
             <div className="relative">
                 <FiHeart />
                 <div className="bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
-                0
+                    0
                 </div>
             </div>
 
             <div className="relative">
                 <HiOutlineShoppingBag />
                 <div className="bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
-                0
+                    0
                 </div>
             </div>
         </div>
