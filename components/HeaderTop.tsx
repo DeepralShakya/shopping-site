@@ -38,7 +38,7 @@ const HeaderTop = () => {
                     id="language"
                     >
                     <option value="English">English</option>
-                    <option value="French">French</option>
+                    <option value="Nepali">Nepali</option>
                     </select>
                 </div>
             </div>
