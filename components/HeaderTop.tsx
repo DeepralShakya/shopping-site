@@ -2,10 +2,10 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 
 const HeaderTop = () => {
   return (
-    <div className="border-b border-orange-300 hidden sm:block">
+    <div className="border-b border-orange-300">
         <div className="container py-4">
             <div className="flex justify-between items-center">
-                <div className="hidden lg:flex gap-1">
+                <div className="lg:flex gap-4">
                     <div className="header_top__icon_wrapper">
                         <FaInstagram />
                     </div>

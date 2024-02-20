@@ -72,7 +72,7 @@ const ProductCard: React.FC<propsType> = ({img, desc, price, rating, title}) => 
     return (
         <div className='px-4 border border-orange-500 rounded-xl max-w-[400]'>
             <div>
-                <Image className='w-full h-auto' src={img} width={200} height={300} alt={title}/>
+                <Image className='w-full h-auto cursor-pointer' src={img} width={200} height={300} alt={title}/>
             </div>
             <div className='space-y-2 py-2'>
                 <h2 className='text-orange-400 uppercase text-center font-bold'>{title}</h2>
